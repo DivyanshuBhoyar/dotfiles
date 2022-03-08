@@ -1,0 +1,53 @@
+{
+  "window.menuBarVisibility": "toggle",
+  "editor.formatOnSave": true,
+  "blockman.n01LineHeight": 0,
+  "workbench.colorCustomizations": {
+    "editor.lineHighlightBackground": "#1073cf2d",
+    "editor.lineHighlightBorder": "#9fced11f"
+  },
+  "editor.wordWrap": "off",
+  "diffEditor.wordWrap": "off",
+  "editor.guides.indentation": false,
+  "editor.guides.bracketPairs": false,
+  "editor.inlayHints.enabled": false,
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Xcode Syntax Default Dark",
+  "blockman.n04Sub01ColorComboPresetForDarkTheme": "Classic Dark 3 (Gradients)",
+  "editor.fontSize": 18,
+  "editor.fontFamily": "FiraCode Nerd Font Mono",
+  "terminal.integrated.fontFamily": "UbuntuMono Nerd Font mono",
+  "terminal.integrated.fontSize": 18,
+  "terminal.integrated.lineHeight": 1.25,
+  "workbench.sideBar.location": "right",
+  "extensions.autoUpdate": "onlyEnabledExtensions",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.suggest.paths": false,
+  "javascript.suggest.paths": false,
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "bash",
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh"
+    },
+    "fish": {
+      "path": "/usr/bin/fish"
+    }
+  },
+  "terminal.integrated.defaultProfile.linux": "fish",
+  "sync.gist": "07206c3e5c14598a07e3cbb1c9085d92",
+  "editor.inlineSuggest.enabled": true,
+  "[scss]": {
+    "editor.defaultFormatter": "michelemelluso.code-beautifier"
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": true,
+    "markdown": false
+  }
+}

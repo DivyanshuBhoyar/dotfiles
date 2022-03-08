@@ -1,0 +1,15 @@
+
+# 2022-03-07 12:46:54.943652
++createdb testdb
+
+# 2022-03-07 12:47:14.213281
++CREATE DATABASE testdb
+
+# 2022-03-07 15:11:51.010966
++SHOW DATABASE
+
+# 2022-03-07 15:12:07.211409
++SHOW database testdb
+
+# 2022-03-07 15:12:18.394734
++SHOW database testdb ;
