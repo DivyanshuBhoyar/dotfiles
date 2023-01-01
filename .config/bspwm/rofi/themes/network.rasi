@@ -1,8 +1,8 @@
-/* Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com> */
+/* Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com> */
 /* Everyone is permitted to copy and distribute copies of this file under GNU-GPL3 */
 
 configuration {
-    font:                           "Iosevka 10";
+    font:                           "JetBrains Mono Medium 10";
     show-icons:                     false;
     display-drun: 					"";
     drun-display-format:            "{icon} {name}";
@@ -16,10 +16,11 @@ window {
     transparency:                   "real";
     background-color:               @background;
     text-color:                     @foreground;
-    border:                  		1px;
+    border:                  		0px;
     border-color:                  	@selected;
-    border-radius:                  0px;
-    width:                          335px;
+    border-radius:                  12px;
+    width:                          450px;
+    height:                         470px;
     location:                       center;
     anchor:                         center;
     x-offset:                       0;
@@ -39,9 +40,9 @@ prompt {
 
 textbox-prompt-colon {
 	expand: 						false;
-	str: 							"﬉";
-    border-radius:                  0px;
-    background-color:               @selected;
+	str: 							"直";
+    border-radius:                  10px;
+    background-color:               @highlight;
     text-color:                     @background;
     padding:    					6px 10px 6px 10px;
 	font:							"Iosevka Nerd Font 10";
@@ -59,11 +60,11 @@ entry {
 }
 
 inputbar {
-	children: 						[ textbox-prompt-colon, prompt ];
+	children: 						[ textbox-prompt-colon, prompt, entry ];
     spacing:                        0;
     background-color:               @background;
     text-color:                     @foreground;
-    border:                  		0px 0px 1px 0px;
+    border:                  		0px;
     border-radius:                  0px;
     border-color:                  	@selected;
     expand:                         false;
@@ -82,28 +83,26 @@ case-indicator {
 listview {
     background-color:               @background;
     columns:                        1;
-    lines:							5;
-    spacing:                        10px;
+    lines:							8;
+    spacing:                        4px;
     cycle:                          true;
     dynamic:                        true;
-    layout:                         horizontal;
+    layout:                         vertical;
 }
 
 mainbox {
     background-color:               @background;
     children:                       [ inputbar, listview ];
     spacing:                       	10px;
-    padding:                        10px;
+    padding:                        20px;
 }
 
 element {
     background-color:               @background;
     text-color:                     @foreground;
     orientation:                    horizontal;
-    border:                  		1px;
     border-radius:                  0px;
-    border-color:                  	@selected;
-    padding:                        23.5px 25px 23.5px 25px;
+    padding:                        5px;
 }
 
 element-icon {
@@ -118,18 +117,17 @@ element-icon {
 element-text {
     background-color: 				inherit;
     text-color:       				inherit;
-	font:							"feather 14";
     expand:                         true;
-    horizontal-align:               0.5;
+    horizontal-align:               0;
     vertical-align:                 0.5;
-    margin:                         0px 0px 0px 0px;
+    margin:                         2px 0px 2px 2px;
 }
 
 element selected {
     background-color:               @selected;
     text-color:                     @background;
     border:                  		0px;
-    border-radius:                  0px;
+    border-radius:                  10px;
     border-color:                  	@selected;
 }
 

@@ -14,9 +14,11 @@ env:
 
 ## Terminal window settings
 window:
+  opacity: 0.94
   dimensions:
     columns: 82
     lines: 25
+
 
   padding:
     x: 12
@@ -30,8 +32,6 @@ window:
   history: 10000
   multiplier: 3
 
-## Background opacity
-window.opacity: 1.0 
 
 ## Cursor
 cursor:

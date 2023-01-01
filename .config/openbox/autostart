@@ -34,9 +34,14 @@ exec mpd &
 
 ## Launch Plank
 
+## Launch zentile
+## exec zentile &
 
 ## Thunar Daemon
-exec thunar --daemon &
+## exec thunar --daemon &
+
+## Greenclip clipboard manager
+greenclip daemon &
 
 ## Enable Super Keys For Menu
 ksuperkey -e 'Super_L=Alt_L|F1' &

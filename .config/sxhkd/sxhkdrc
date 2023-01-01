@@ -5,16 +5,15 @@
 
 # Terminal (alacritty)
 super + Return
-	alacritty
+	bspterm
 
 # Terminal (floating)
 super + shift + Return
-	alacritty -f
-
+	bspterm -f
 
 # Terminal (fullscreen)
 super + t
-	alacritty -s	
+	bspterm -s	
 
 ##---------- Rofi Launcher & Menus ----------##
 
@@ -108,7 +107,7 @@ ctrl + shift + {q,r}
 	bspc {quit,wm -r}
 	
 # Split horizontal, vertical or cancel
-super + {h,v,q}
+shift + super + {h,v,q}
 	bspc node -p {east,south,cancel}
 
 # Preselect the ratio
@@ -168,44 +167,9 @@ alt + shift + {Left,Down,Up,Right}
 # Hide/Unhide Window
 super + shift + i
 	winmask		
-
-
-# Move current window to a pre-selected space
-super + shift + m
-    bspc node -n last.!automatic
-
-
-# Rotate tree
-super + shift + {d,a}
-    bspc node @/ -C {forward,backward}
-
-
-# move to workspace and make switch
-# Send to desktop
-super + shift + {1-9,0}
-    bspc node -d '^{1-9,10}' --follow
-
-# Send to monitor
-super + shift + equal
-    bspc node -m last --follow
-
-
-# Expand/contract a window by moving one of its side outward/inward
-super + s : {h,j,k,l}
-    STEP=20; SELECTION={1,2,3,4}; \
-    bspc node -z $(echo "left -$STEP 0,bottom 0 $STEP,top 0 -$STEP,right $STEP 0" | cut -d',' -f$SELECTION) || \
-    bspc node -z $(echo "right -$STEP 0,top 0 $STEP,bottom 0 -$STEP,left $STEP 0" | cut -d',' -f$SELECTION)
-
-# Show clipmenu
-alt + v
-    CM_LAUNCHER=rofi clipmenu \
-        -location 1 \
-        -m -3 \
-        -no-show-icons \
-        -theme-str '* \{ font: 10px; \}' \
-        -theme-str 'listview \{ spacing: 0; \}' \
-        -theme-str 'window \{ width: 20em; \}'
-
+	
+## greenclip clipboard
+super + v
+	rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
 
 ##---------- EOF ----------##
-

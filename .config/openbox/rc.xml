@@ -27,38 +27,38 @@
     <keepBorder>no</keepBorder>
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
-      <name>JetBrains Mono</name>
-      <size>9</size>
+      <name>FiraCode Nerd Font</name>
+      <size>10</size>
       <weight>Bold</weight>
       <slant>Normal</slant>
     </font>
     <font place="InactiveWindow">
-      <name>JetBrains Mono</name>
-      <size>9</size>
+      <name>FiraCode Nerd Font</name>
+      <size>10</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
     <font place="MenuHeader">
-      <name>JetBrains Mono</name>
-      <size>9</size>
+      <name>FiraCode Nerd Font</name>
+      <size>10</size>
       <weight>Bold</weight>
       <slant>Normal</slant>
     </font>
     <font place="MenuItem">
-      <name>JetBrains Mono</name>
-      <size>9</size>
+      <name>FiraCode Nerd Font</name>
+      <size>10</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
     <font place="ActiveOnScreenDisplay">
-      <name>JetBrains Mono</name>
-      <size>9</size>
+      <name>FiraCode Nerd Font</name>
+      <size>10</size>
       <weight>Bold</weight>
       <slant>Normal</slant>
     </font>
     <font place="InactiveOnScreenDisplay">
-      <name>JetBrains Mono</name>
-      <size>9</size>
+      <name>FiraCode Nerd Font</name>
+      <size>10</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
@@ -465,7 +465,7 @@
         <command>takeshot --win</command>
       </action>
     </keybind>
-    <keybind key="C-S-Print">
+    <keybind key="C-A-Print">
       <action name="Execute">
         <command>takeshot --area</command>
       </action>
@@ -541,7 +541,7 @@
     </keybind>
     <keybind key="W-v">
       <action name="Execute">
-        <command>tasks</command>
+        <command>rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'</command>
       </action>
     </keybind>
     <!-- CLI Apps -->

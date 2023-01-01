@@ -1,4 +1,4 @@
-## Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
+## Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com>
 ## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
 
 ## Configuration for Alacritty, the GPU enhanced terminal emulator.
@@ -17,10 +17,9 @@ env:
 
 ## Terminal window settings
 window:
-  opacity : 0.96
   dimensions:
     columns: 82
-    lines: 25
+    lines: 24
 
   padding:
     x: 12
@@ -35,7 +34,7 @@ window:
   multiplier: 3
 
 ## Background opacity
-## window.opacity: 0.9
+  opacity: 0.94
 
 ## Cursor
 cursor:
@@ -44,9 +43,12 @@ cursor:
     blinking: On
 
   unfocused_hollow: false
- 
-font :
-  size : 12
 
 ## Live config reload
 live_config_reload: true
+
+## Shell
+#shell:
+#  program: /bin/zsh
+#  args:
+#    - --login

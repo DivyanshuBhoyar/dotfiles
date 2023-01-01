@@ -1,29 +1,180 @@
-# Colors (Tokyo Night)
-# Source: https://github.com/zatchheems/tokyo-night-alacritty-theme
+# # Colors (Tokyo Night)
+# # Source: https://github.com/zatchheems/tokyo-night-alacritty-theme
+# colors:
+#   # Default colors
+#   primary:
+#     background: '#1a1b26'
+#     foreground: '#a9b1d6'
+
+#   # Normal colors
+#   normal:
+#     black:   '#32344a'
+#     red:     '#f7768e'
+#     green:   '#9ece6a'
+#     yellow:  '#e0af68'
+#     blue:    '#7aa2f7'
+#     magenta: '#ad8ee6'
+#     cyan:    '#449dab'
+#     white:   '#787c99'
+
+#   # Bright colors
+#   bright:
+#     black:   '#444b6a'
+#     red:     '#ff7a93'
+#     green:   '#b9f27c'
+#     yellow:  '#ff9e64'
+#     blue:    '#7da6ff'
+#     magenta: '#bb9af7'
+#     cyan:    '#0db9d7'
+#     white:   '#acb0d0'
+
+# colors:
+#   # Default colors
+#   primary:
+#     background: "0x292C3E"
+#     foreground: "0xEBEBEB"
+
+#   # Cursor colors
+#   cursor:
+#     text: "0xFF261E"
+#     cursor: "0xFF261E"
+
+#   # Normal colors
+#   normal:
+#     black: "0x0d0d0d"
+#     red: "0xFF301B"
+#     green: "0xA0E521"
+#     yellow: "0xFFC620"
+#     blue: "0x1BA6FA"
+#     magenta: "0x8763B8"
+#     cyan: "0x21DEEF"
+#     white: "0xEBEBEB"
+
+#   # Bright colors
+#   bright:
+#     black: "0x6D7070"
+#     red: "0xFF4352"
+#     green: "0xB8E466"
+#     yellow: "0xFFD750"
+#     blue: "0x1BA6FA"
+#     magenta: "0xA578EA"
+#     cyan: "0x73FBF1"
+#     white: "0xFEFEF8"
+
+# colors:
+#   # Default colors
+#   primary:
+#     background: "0x1b2b34"
+#     foreground: "0xd8dee9"
+
+#   # Normal colors
+#   normal:
+#     black: "0x29414f"
+#     red: "0xec5f67"
+#     green: "0x99c794"
+#     yellow: "0xfac863"
+#     blue: "0x6699cc"
+#     magenta: "0xc594c5"
+#     cyan: "0x5fb3b3"
+#     white: "0x65737e"
+
+#   # Bright colors
+#   bright:
+#     black: "0x405860"
+#     red: "0xec5f67"
+#     green: "0x99c794"
+#     yellow: "0xfac863"
+#     blue: "0x6699cc"
+#     magenta: "0xc594c5"
+#     cyan: "0x5fb3b3"
+#     white: "0xadb5c0"
+
+# colors:
+#   # Default colors
+#   primary:
+#     background: "0x282a36"
+#     foreground: "0xeff0eb"
+
+#   # Normal colors
+#   normal:
+#     black: "0x282a36"
+#     red: "0xff5c57"
+#     green: "0x5af78e"
+#     yellow: "0xf3f99d"
+#     blue: "0x57c7ff"
+#     magenta: "0xff6ac1"
+#     cyan: "0x9aedfe"
+#     white: "0xf1f1f0"
+
+#   # Bright colors
+#   bright:
+#     black: "0x686868"
+#     red: "0xff5c57"
+#     green: "0x5af78e"
+#     yellow: "0xf3f99d"
+#     blue: "0x57c7ff"
+#     magenta: "0xff6ac1"
+#     cyan: "0x9aedfe"
+#     white: "0xf1f1f0"
+
+# colors:
+#   # Primary colors
+#   primary:
+#     background: "0x1c1e26"
+#     foreground: "0xe0e0e0"
+
+#   # Normal colors
+#   normal:
+#     black: "0x16161c"
+#     red: "0xe95678"
+#     green: "0x29d398"
+#     yellow: "0xfab795"
+#     blue: "0x26bbd9"
+#     magenta: "0xee64ac"
+#     cyan: "0x59e1e3"
+#     white: "0xd5d8da"
+
+#   # Bright colors
+#   bright:
+#     black: "0x5b5858"
+#     red: "0xec6a88"
+#     green: "0x3fdaa4"
+#     yellow: "0xfbc3a7"
+#     blue: "0x3fc4de"
+#     magenta: "0xf075b5"
+#     cyan: "0x6be4e6"
+#     white: "0xd5d8da"
+
 colors:
   # Default colors
   primary:
-    background: '#1a1b26'
-    foreground: '#a9b1d6'
+  primary:
+    background: '0x0b141a'
+    foreground: '0xffffff'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: "0xffffff"
+    cursor: "0x6d767d"
 
   # Normal colors
   normal:
-    black:   '#32344a'
-    red:     '#f7768e'
-    green:   '#9ece6a'
-    yellow:  '#e0af68'
-    blue:    '#7aa2f7'
-    magenta: '#ad8ee6'
-    cyan:    '#449dab'
-    white:   '#787c99'
+    black: "0x1d252b"
+    red: "0xff4053"
+    green: "0x5bcc23"
+    yellow: "0xbf8c00"
+    blue: "0x0460c2"
+    magenta: "0xff549b"
+    cyan: "0x00a5ab"
+    white: "0xe6eaed"
 
   # Bright colors
   bright:
-    black:   '#444b6a'
-    red:     '#ff7a93'
-    green:   '#b9f27c'
-    yellow:  '#ff9e64'
-    blue:    '#7da6ff'
-    magenta: '#bb9af7'
-    cyan:    '#0db9d7'
-    white:   '#acb0d0'
+    black: "0x0b141a"
+    red: "0xff6200"
+    green: "0x61707a"
+    yellow: "0x6d767d"
+    blue: "0x787e82"
+    magenta: "0x9854ff"
+    cyan: "0x808487"
+    white: "0xffffff"
